@@ -1,0 +1,302 @@
+{
+  "schema": "next-season-static-v1",
+  "mode": "public_snapshot",
+  "exported_at": "2026-11-20T15:36:14+00:00",
+  "captured_at": null,
+  "last_refresh_attempt_at": null,
+  "data_available": false,
+  "snapshot_note": "Independent public storefront and media research. Catalogs are sampled, not complete; availability is a listing observation, not a sale.",
+  "overview": {
+    "brief": [
+      {
+        "id": "assortment",
+        "tag": "Store comparison",
+        "metric": null,
+        "headline": "Store comparison needs at least two successful samples",
+        "detail": "Refresh permitted storefront sources to compare product groups with the same category rules.",
+        "observed": "Comparable storefront data not available.",
+        "inferred": "No product gap can be assessed without observed listings.",
+        "evidence": [],
+        "product_examples": []
+      },
+      {
+        "id": "brand",
+        "tag": "Brand coverage",
+        "metric": null,
+        "headline": "Brand coverage review",
+        "detail": "No supported brand absence conclusion can be drawn from the currently available samples.",
+        "observed": "No qualifying brand difference observed or insufficient store coverage.",
+        "inferred": "No evidence of an assortment gap.",
+        "evidence": [],
+        "product_examples": []
+      },
+      {
+        "id": "media",
+        "tag": "Merchandise Media Attention",
+        "metric": null,
+        "headline": "No recent merchandise headlines collected",
+        "detail": "News queries may be unavailable or have no relevant headlines.",
+        "observed": "No qualifying headlines in the stored sample.",
+        "inferred": "No inference about public interest or demand is possible.",
+        "evidence": [],
+        "product_examples": []
+      },
+      {
+        "id": "weather",
+        "tag": "Weather and listing availability",
+        "metric": null,
+        "headline": "Outerwear readiness needs observed sizes and forecast data",
+        "detail": "A forecast and size-level public listings are required before comparing them.",
+        "observed": "No complete weather-plus-size observation available.",
+        "inferred": "No stockout, weather-driven demand, or replenishment conclusion can be drawn.",
+        "evidence": [],
+        "product_examples": []
+      }
+    ],
+    "assortment": {
+      "stores": [],
+      "tier_chart": [
+        {
+          "tier": "<$50"
+        },
+        {
+          "tier": "$50–$99"
+        },
+        {
+          "tier": "$100–$149"
+        },
+        {
+          "tier": "$150+"
+        }
+      ],
+      "cut_chart": [
+        {
+          "cut": "Women's"
+        },
+        {
+          "cut": "Cropped"
+        },
+        {
+          "cut": "Boxy"
+        },
+        {
+          "cut": "Any of the three"
+        }
+      ],
+      "brand_matrix": [
+        {
+          "brand": "'47",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "500 Level",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "Antigua",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "Bleacher Report",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "FEAR OF GOD",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "FOCO",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "Homage",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "Mitchell & Ness",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "Playa Society",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "Pro Standard",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "Round21",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "Seen",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "Sportiqe",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "Stadium Essentials",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "Starter",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "Terez",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "Warren Lotas",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        },
+        {
+          "brand": "Wild Collective",
+          "counts": {},
+          "rivals_carrying": 0,
+          "carried_by": [],
+          "rival_skus": 0,
+          "missing_at_pse": false,
+          "examples": []
+        }
+      ],
+      "missing_brands": [],
+      "labels": [],
+      "categories": [
+        "Fleece & Outerwear",
+        "Tees & Tops",
+        "Headwear",
+        "Other Apparel"
+      ]
+    },
+    "reddit": {
+      "posts": [],
+      "counts": {
+        "Player & Signature Product Coverage": 0,
+        "Athlete Style & Streetwear Coverage": 0,
+        "Limited-Release Coverage": 0,
+        "Retro & City Design Coverage": 0
+      },
+      "themes": [],
+      "basis": "Google News RSS headline counts for four preset queries. Not consumer sentiment, search volume, sales, or demand."
+    },
+    "culture": {
+      "news": [],
+      "momentum": {
+        "last_7d": 0,
+        "prior_23d": 0,
+        "tunnel_fit": 0,
+        "collab": 0
+      },
+      "weather": [],
+      "readiness": {
+        "level": "unknown",
+        "stockout_pct": null,
+        "skus_tracked": 0,
+        "skus_out": 0,
+        "cold_days": 0,
+        "threshold_f": 38,
+        "coldest": null,
+        "first_cold_day": null,
+        "out_of_stock": [],
+        "rules": "Cold day = forecast low under 38°F. Stockout % = share of fleece/outerwear SKUs with M or L sold out (across all colors). Critical: 3+ cold days and 30%+; Elevated: 15%+ with any cold day; Watch: any cold day below 15%."
+      }
+    },
+    "signals": {},
+    "last_run": null,
+    "pse_sku_count": 0
+  },
+  "skus": {
+    "total": 0,
+    "items": [],
+    "teams": [],
+    "categories": []
+  }
+}

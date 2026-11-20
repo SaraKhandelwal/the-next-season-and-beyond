@@ -1,0 +1,6 @@
+import React from 'react'
+import {fmtTime} from '../api.js'
+export default function Header({progress,onRefresh,lastRun,isStatic=false,capturedAt}){
+  const running=progress?.running
+  return <header className="border-b border-line bg-white"><div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-6 py-6"><div className="flex items-center gap-4"><div className="flex h-11 w-11 items-center justify-center rounded-md border border-line bg-[#F8F4F5] font-serif text-xl text-[#704957]">N.</div><div><h1 className="text-xl font-semibold tracking-tight text-ink">The Next Season</h1><p className="text-sm text-gray-500">Merchandise Intelligence · Independent public research</p></div></div><div className="flex items-center gap-4"><span className="rounded-full border border-line px-3 py-1.5 text-xs text-gray-600">{isStatic?`Snapshot captured ${fmtTime(capturedAt)}`:lastRun?.finished_at?`Updated ${fmtTime(lastRun.finished_at)}`:'No refresh completed'}</span>{!isStatic&&<button onClick={onRefresh} disabled={running} className="rounded-md bg-ink px-4 py-2 text-xs font-bold text-white disabled:opacity-50">{running?'Refreshing…':'Refresh public data'}</button>}</div></div>{progress?.error&&<p className="mx-auto max-w-7xl px-6 pb-3 text-xs text-gray-600">Some public sources were unavailable. See source status for details.</p>}</header>
+}
