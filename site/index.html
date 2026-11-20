@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="theme-color" content="#FAFAFA"/>
+  <meta name="description" content="The Next Season: Independent public research into sports merchandising, brand partnerships, price positioning, and storefront availability."/>
+  <title>The Next Season | Merchandise Intelligence</title>
+  <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand-mark"><div class="monogram">T<span>·</span>N<span>·</span>S</div><div class="brand-sub">THE NEXT SEASON</div></div>
+      <div class="side-section-label">RESEARCH WORKSPACE</div>
+      <nav id="nav" class="nav" aria-label="Main navigation">
+        <button data-page="overview" class="nav-btn active"><span class="nav-num">01</span> Intelligence overview</button>
+        <button data-page="compare" class="nav-btn"><span class="nav-num">02</span> Compare stores</button>
+        <button data-page="products" class="nav-btn"><span class="nav-num">03</span> Product library</button>
+        <button data-page="research" class="nav-btn"><span class="nav-num">04</span> Fashion research</button>
+        <button data-page="monitor" class="nav-btn"><span class="nav-num">05</span> Media & weather</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="status-line"><span class="dot" id="status-dot"></span><span id="sidebar-status">Loading evidence</span></div>
+        <p>Independent research. Not affiliated with any retailer, team or league.</p>
+        <p class="side-fine">Public listings are incomplete samples, not sales data.</p>
+      </div>
+    </aside>
+    <div class="main-column">
+      <header class="topbar">
+        <div class="topbar-left"><span class="eyebrow">MERCHANDISE INTELLIGENCE</span><span class="topbar-divider">/</span><span id="topbar-page">Overview</span></div>
+        <div class="topbar-right"><span class="snapshot-tag" id="snapshot-tag">Preparing research</span><a class="header-link" href="https://github.com/SaraKhandelwal/the-next-season" target="_blank" rel="noopener noreferrer">Project ↗</a></div>
+      </header>
+      <main id="page" tabindex="-1"><div class="loading"><span class="spinner"></span> Loading documented evidence…</div></main>
+      <footer class="footer">THE NEXT SEASON <span>Independent public merchandise research · Not a sales or demand forecast</span></footer>
+    </div>
+  </div>
+  <dialog id="detail-dialog" aria-label="Research detail"><button class="dialog-close" id="close-dialog" aria-label="Close details">✕</button><div id="dialog-content"></div></dialog>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
